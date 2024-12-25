@@ -67,8 +67,20 @@ export default defineConfig({
         base: "/ai/",
         items: [
           {
-            text: 'Examples',
+            base: '/ai/machine-learning/',
+            text: '机器学习',
             items: [
+              { text: '简介', link: '/01' },
+              { text: 'KNN算法', link: '/02' },
+              { text: '线性回归', link: '/03' },
+              { text: '逻辑回归', link: '/04' },
+              { text: '决策树', link: '/05' },
+              { text: '集成学习', link: '/06' },
+              { text: '朴素贝叶斯', link: '/07' },
+              { text: '特征降维', link: '/07/01' },
+              { text: '聚类', link: '/08' },
+              { text: '支持向量机', link: '/09' },
+              { text: 'otto案例介绍', link: '/10' },
             ]
           }
         ]
