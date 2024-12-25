@@ -271,7 +271,7 @@ df.pivot_table(index= , columns = , values=, aggfunc=)
 
 累计求和
 
-df[列名].cumsum()
+`df[列名].cumsum()`
 
 ```python
 import pandas as pd
@@ -299,7 +299,7 @@ customer_info.info()
 > 9   生日      785590 non-null  object        
 > 10  年齡      952705 non-null  float64       
 > 11  生命级别    952714 non-null  object        
->dtypes: datetime64[ns](1), float64(1), object(10)
+> `dtypes: datetime64[ns](1), float64(1), object(10)`
 >memory usage: 87.2+ MB
 
 - 将注册年月转换成 年月的形式展示
