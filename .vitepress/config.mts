@@ -45,6 +45,22 @@ export default defineConfig({
               { text: '二叉树', link: '/09' },
             ]
           },
+          {
+            text: "数据处理与统计分析",
+            base: '/python/data/',
+            items: [
+              { text: 'Linux简介', link: '/01' },
+              { text: 'Linux使用技巧', link: '/02' },
+              { text: 'Mysql', link: '/03' },
+              { text: '窗口函数、jupyter、Numpy', link: '/04' },
+              { text: 'Pandas、DataFrame入门', link: '/05' },
+              { text: '数据组合、缺失值处理、Apply', link: '/06' },
+              { text: '数据分组、透视表', link: '/07' },
+              { text: '数据可视化', link: '/08' },
+              { text: 'Pandas、Seaborn、RFM', link: '/09' },
+              { text: '阶段小结', link: '/10' },
+            ]
+          }
         ]
       },
       "/ai/": {
