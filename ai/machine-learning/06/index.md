@@ -373,7 +373,7 @@ AdaBoost 模型公式中
 
    4. 此时得到：
 
-    <img src="../../../mkdocs_ML/docs/09-集成学习/assets/16.png" />
+    <!-- <img src="../../../mkdocs_ML/docs/09-集成学习/assets/16.png" /> -->
     <img src="./images/17.png" />
 
 - 构建第二个弱学习器
