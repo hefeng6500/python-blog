@@ -9,8 +9,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Python', link: '/python' },
-      { text: 'AI', link: '/ai' },
+      { text: 'Python', link: '/python', activeMatch: '/python' },
+      { text: 'AI', link: '/ai', activeMatch: '/ai'  },
     ],
 
     sidebar: {
@@ -89,6 +89,28 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/hefeng6500/python-blog/edit/master/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    outline: {
+      label: '页面导航'
+    },
+
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium'
+      }
+    },
   }
 })
