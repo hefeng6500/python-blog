@@ -31,7 +31,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./vitepress/dist  # 使用构建后的产物路径
+          path: ./.vitepress/dist  # 使用构建后的产物路径
 
   # Deployment job
   deploy:
