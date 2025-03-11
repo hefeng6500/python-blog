@@ -1,5 +1,4 @@
 import { defineConfig } from "vitepress";
-import markdownItKatex from "markdown-it-katex";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -115,8 +114,6 @@ export default defineConfig({
     },
   },
   markdown: {
-    config: (md) => {
-      md.use(markdownItKatex);
-    },
+    math: true,
   },
 });
